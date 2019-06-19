@@ -50,10 +50,10 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         val btnId = intent.getIntExtra(EXTRA_MESSAGE, 0)
 
         // coordinates for seikyou (hungry), library (bored), gym (tired)
-        val gym = LatLng(35.6572031,139.5418123)
-        val seikyou = LatLng(35.6571586,139.5419475)
-        val library = LatLng(35.6573155,139.5426769)
-        val lab = LatLng(35.6572187,139.5406295) // for error case
+        val gym = LatLng(35.657202,139.54236)
+        val seikyou = LatLng(35.657158,139.543627)
+        val library = LatLng(35.657764,139.543503)
+        val lab = LatLng(35.657392,139.542926)  // for error case
 
         // store corresponding marker position & marker title for button
         var mPos: LatLng
